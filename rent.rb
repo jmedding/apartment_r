@@ -17,7 +17,7 @@ class Scraper
         # within("#search_form") do
         p has_content?('Wohnung suchen:')
         #fill_in '.p_select_date', :with => '1.9.2013'
-        #     fill_in '#date2', :with => '8.9.2013'
+        fill_in 'tag', :with => '8.9.2013'
         #find_button(:xpath, "@name='go'").click
 
         # end
